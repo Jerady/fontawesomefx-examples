@@ -1,0 +1,27 @@
+.root{
+    -icons-color: black;
+}
+
+.glyph-icon{
+    -fx-fill: -icons-color;
+}
+
+.bluesky-icon{
+    -icons-color: blue;
+    -fx-fill: linear-gradient(-icons-color 0%, derive(-icons-color, 100%) 30%, derive(blueviolet, 30%) 85%);
+}
+
+.thumbs-up-icon{
+    -glyph-name: "THUMBS_UP";
+    -glyph-size: 6em;
+    -icons-color: yellowgreen;
+}
+
+.thumbs-down-icon{
+    -glyph-name: "THUMBS_DOWN";
+    -glyph-size: 6em;
+    -icons-color: red;
+}
+
+
+
