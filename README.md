@@ -1,5 +1,7 @@
 # FontAwesomeFX Demo Applications
 
+[GitHub Repo](https://github.com/Jerady/fontawesomefx-demoapps)
+
 ## Basic Usage
 
 ```

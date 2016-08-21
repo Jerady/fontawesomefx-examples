@@ -5,7 +5,7 @@
 .glyph-icon{
     -fx-text-fill: -icons-color;
     -fx-fill: -icons-color;
-    -glyph-size: 48px;
+    -glyph-size: 120px;
 }
 
 .glyph-icon:hover{
@@ -15,19 +15,22 @@
 .bluesky-icon{
     -glyph-name: "CLOUD";
     -icons-color: blue;
-    -fx-fill: linear-gradient(-icons-color 0%, derive(-icons-color, 100%) 30%, derive(blueviolet, 30%) 85%);
+    -fx-fill: linear-gradient(-icons-color 0%, 
+        derive(-icons-color, 100%) 30%, derive(blueviolet, 30%) 85%);
 }
 
 .bluesky-icon:hover{
     -glyph-name: "CLOUDY";
     -icons-color: yellowgreen;
-    -fx-effect:  dropshadow(three-pass-box, rgba(156,115,241,0.6), 10, 0, 0, 0);
+    -fx-effect:  dropshadow(three-pass-box, 
+        rgba(156,115,241,0.6), 10, 0, 0, 0);
 }
 
 .bluesky-icon:pressed{
     -glyph-name: "DAY_CLOUDY";
     -icons-color: yellow;
-    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,1.0), 10, 0, 0, 0);
+    -fx-effect:  dropshadow(three-pass-box, 
+        rgba(0,0,0,1.0), 10, 0, 0, 0);
 }
 
 
@@ -53,6 +56,12 @@
 }
 
 .thumbs-down-icon:pressed{
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,1.0), 10, 0, 0, 0);
+}
+
+.android-icon{
+    -icons-color: yellowgreen;
+    -fx-fill: linear-gradient(-icons-color 0%, derive(yellowgreen, 30%) 85%);
     -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,1.0), 10, 0, 0, 0);
 }
 

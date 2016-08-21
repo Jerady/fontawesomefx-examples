@@ -50,7 +50,8 @@ public class CssStylesBasicGlyphsFactoryApp extends Application {
         Label infoLabel = new Label("Hover and click on icons:");
         root.getChildren().add(infoLabel);
 
-        Text thumbsUpIcon = FontAwesomeIconFactory.get().createIcon(FontAwesomeIcon.THUMBS_UP, "4em");
+        Text thumbsUpIcon = 
+                FontAwesomeIconFactory.get().createIcon(FontAwesomeIcon.THUMBS_UP, "4em");
         thumbsUpIcon.getStyleClass().add("thumbs-up-icon");
         root.getChildren().add(thumbsUpIcon);
 
