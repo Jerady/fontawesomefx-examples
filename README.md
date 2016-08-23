@@ -1,6 +1,6 @@
 # FontAwesomeFX Examples and Demo Applications
 
-[GitHub Repo](https://github.com/Jerady/fontawesomefx-demoapps)
+[Get the code here](https://github.com/Jerady/fontawesomefx-demoapps)
 
 ## Basic Usage
 
