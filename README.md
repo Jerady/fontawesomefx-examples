@@ -1,4 +1,4 @@
-# FontAwesomeFX Demo Applications
+# FontAwesomeFX Examples and Demo Applications
 
 [GitHub Repo](https://github.com/Jerady/fontawesomefx-demoapps)
 
