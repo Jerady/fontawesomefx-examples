@@ -11,34 +11,22 @@
  * governing permissions and limitations under the License.
  *
  */
-package de.jensd.fx.glyphs.demo.apps;
+package de.jensd.fx.glyphs.examples;
 
-import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
-import de.jensd.fx.glyphs.fontawesome.utils.FontAwesomeIconFactory;
-import de.jensd.fx.glyphs.icons525.Icons525;
-import de.jensd.fx.glyphs.icons525.utils.Icon525Factory;
-import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIcon;
-import de.jensd.fx.glyphs.materialdesignicons.utils.MaterialDesignIconFactory;
-import de.jensd.fx.glyphs.materialicons.MaterialIcon;
-import de.jensd.fx.glyphs.materialicons.utils.MaterialIconFactory;
-import de.jensd.fx.glyphs.octicons.OctIcon;
-import de.jensd.fx.glyphs.octicons.utils.OctIconFactory;
-import de.jensd.fx.glyphs.weathericons.WeatherIcon;
+import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
 import de.jensd.fx.glyphs.weathericons.WeatherIconView;
-import de.jensd.fx.glyphs.weathericons.utils.WeatherIconFactory;
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 /**
  *
  * @author Jens Deters
  */
-public class CssStylesBasicGlyphsFactoryApp extends Application {
+public class CssStyledGlyphsApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -46,27 +34,26 @@ public class CssStylesBasicGlyphsFactoryApp extends Application {
         VBox root = new VBox();
         root.setSpacing(10.0);
         root.setAlignment(Pos.CENTER);
-
+        
         Label infoLabel = new Label("Hover and click on icons:");
         root.getChildren().add(infoLabel);
-
-        Text thumbsUpIcon = 
-                FontAwesomeIconFactory.get().createIcon(FontAwesomeIcon.THUMBS_UP, "4em");
-        thumbsUpIcon.getStyleClass().add("thumbs-up-icon");
+        
+        FontAwesomeIconView thumbsUpIcon = new FontAwesomeIconView();
+        thumbsUpIcon.setStyleClass("thumbs-up-icon");
         root.getChildren().add(thumbsUpIcon);
 
-        Text thumbsDownIcon = FontAwesomeIconFactory.get().createIcon(FontAwesomeIcon.THUMBS_DOWN, "4em");
-        thumbsDownIcon.getStyleClass().add("thumbs-down-icon");
+        FontAwesomeIconView thumbsDownIcon = new FontAwesomeIconView();
+        thumbsDownIcon.setStyleClass("thumbs-down-icon");
         root.getChildren().add(thumbsDownIcon);
 
-        Text blueskyIcon = WeatherIconFactory.get().createIcon(WeatherIcon.CLOUDY, "4em");
-        blueskyIcon.getStyleClass().add("bluesky-icon");
+        WeatherIconView blueskyIcon = new WeatherIconView();
+        blueskyIcon.setStyleClass("bluesky-icon");
         root.getChildren().add(blueskyIcon);
 
         Scene scene = new Scene(root, 500, 500);
         scene.getStylesheets().addAll("styles/glyphs.css");
         primaryStage.setScene(scene);
-        primaryStage.setTitle("FontAwesomeFX Basic Factories Demo");
+        primaryStage.setTitle("FontAwesomeFX Basic Demo");
         primaryStage.show();
     }
 

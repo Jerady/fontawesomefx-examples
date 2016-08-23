@@ -11,7 +11,7 @@
  * governing permissions and limitations under the License.
  *
  */
-package de.jensd.fx.glyphs.demo.apps;
+package de.jensd.fx.glyphs.examples;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;

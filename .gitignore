@@ -4,3 +4,4 @@ private/
 gradle/
 .ng-gradle/
 .gradle/
+/.nb-gradle/
