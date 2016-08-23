@@ -6,14 +6,14 @@ repositories {
     mavenCentral()
 }
 
-mainClassName =  'de.jensd.fx.glyphs.examples.BasicGlyphsApp'
+mainClassName =  'de.jensd.fx.glyphs.examples.CssStyledGlyphsApp'
 
 sourceCompatibility = '1.8'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 
 if (!hasProperty('mainClass')) {
-    ext.mainClass = 'de.jensd.fx.glyphs.examples.BasicGlyphsApp'
+    ext.mainClass = 'de.jensd.fx.glyphs.examples.CssStyledGlyphsApp'
 }
 
 task execute(type:JavaExec) {

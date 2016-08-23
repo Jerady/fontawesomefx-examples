@@ -15,16 +15,7 @@ package de.jensd.fx.glyphs.examples;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.utils.FontAwesomeIconFactory;
-import de.jensd.fx.glyphs.icons525.Icons525;
-import de.jensd.fx.glyphs.icons525.utils.Icon525Factory;
-import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIcon;
-import de.jensd.fx.glyphs.materialdesignicons.utils.MaterialDesignIconFactory;
-import de.jensd.fx.glyphs.materialicons.MaterialIcon;
-import de.jensd.fx.glyphs.materialicons.utils.MaterialIconFactory;
-import de.jensd.fx.glyphs.octicons.OctIcon;
-import de.jensd.fx.glyphs.octicons.utils.OctIconFactory;
 import de.jensd.fx.glyphs.weathericons.WeatherIcon;
-import de.jensd.fx.glyphs.weathericons.WeatherIconView;
 import de.jensd.fx.glyphs.weathericons.utils.WeatherIconFactory;
 import javafx.application.Application;
 import javafx.geometry.Pos;

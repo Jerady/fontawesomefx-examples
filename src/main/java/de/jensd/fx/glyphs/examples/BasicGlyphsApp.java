@@ -47,31 +47,34 @@ public class BasicGlyphsApp extends Application {
 
         FontAwesomeIconView fontAwesomeIconView = 
                 new FontAwesomeIconView(FontAwesomeIcon.ANGELLIST);
-        fontAwesomeIconView.setSize("4em");
         root.getChildren().add(fontAwesomeIconView);
 
-//        MaterialDesignIconView materialDesignIconView = new MaterialDesignIconView(MaterialDesignIcon.CHECK_ALL);
-//        materialDesignIconView.setSize("4em");
-//        root.getChildren().add(materialDesignIconView);
-//
-//        MaterialIconView materialIconView = new MaterialIconView(MaterialIcon.THUMB_UP);
-//        materialIconView.setSize("4em");
-//        root.getChildren().add(materialIconView);
-//
-//        Icons525View icons525View = new Icons525View(Icons525.ANGELLIST);
-//        icons525View.setSize("4em");
-//        root.getChildren().add(icons525View);
-//
-//        OctIconView octIconView = new OctIconView(OctIcon.OCTOFACE);
-//        octIconView.setSize("4em");
-//        root.getChildren().add(octIconView);
-//
-//        WeatherIconView weatherIcon = new WeatherIconView(WeatherIcon.CLOUDY);
-//        weatherIcon.setSize("4em");
-//        root.getChildren().add(weatherIcon);
+        MaterialDesignIconView materialDesignIconView = 
+                new MaterialDesignIconView(MaterialDesignIcon.CHECK_ALL);
+        root.getChildren().add(materialDesignIconView);
+
+        MaterialIconView materialIconView = 
+                new MaterialIconView(MaterialIcon.THUMB_UP);
+        materialIconView.setSize("4em");
+        root.getChildren().add(materialIconView);
+
+        Icons525View icons525View = 
+                new Icons525View(Icons525.ANGELLIST);
+        icons525View.setSize("4em");
+        root.getChildren().add(icons525View);
+
+        OctIconView octIconView = 
+                new OctIconView(OctIcon.OCTOFACE);
+        octIconView.setSize("4em");
+        root.getChildren().add(octIconView);
+
+        WeatherIconView weatherIcon = 
+                new WeatherIconView(WeatherIcon.CLOUDY);
+        weatherIcon.setSize("4em");
+        root.getChildren().add(weatherIcon);
 
         Scene scene = new Scene(root, 500, 500);
-        scene.getStylesheets().addAll(GlyphsStyle.DEFAULT.getStylePath());
+        scene.getStylesheets().addAll("styles/basic.css");
         primaryStage.setScene(scene);
         primaryStage.setTitle("FontAwesomeFX Basic Demo");
         primaryStage.show();

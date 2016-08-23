@@ -5,7 +5,7 @@
 .glyph-icon{
     -fx-text-fill: -icons-color;
     -fx-fill: -icons-color;
-    -glyph-size: 120px;
+    -glyph-size: 48px;
 }
 
 .glyph-icon:hover{
