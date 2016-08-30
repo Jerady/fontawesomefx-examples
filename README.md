@@ -8,6 +8,7 @@
 FontAwesomeIconView fontAwesomeIconView = 
   new FontAwesomeIconView(FontAwesomeIcon.ANGELLIST);
 ```
+![](images/basic_1.png)
 
 ```
 MaterialDesignIconView materialDesignIconView = 
@@ -55,6 +56,7 @@ WeatherIconView blueskyIcon = new WeatherIconView();
 blueskyIcon.setStyleClass("bluesky-icon");
 root.getChildren().add(blueskyIcon);
 ```
+![](images/css_style_1.png)
 
 ####styles/glyphs.css
 
