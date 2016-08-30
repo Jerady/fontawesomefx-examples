@@ -56,7 +56,7 @@ WeatherIconView blueskyIcon = new WeatherIconView();
 blueskyIcon.setStyleClass("bluesky-icon");
 root.getChildren().add(blueskyIcon);
 ```
-![](images/css_style_1.png)
+![](images/css_style_2.png)
 
 ####styles/glyphs.css
 
@@ -128,6 +128,8 @@ root.getChildren().add(blueskyIcon);
     -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,1.0), 10, 0, 0, 0);
 }
 ```
+![](images/css_style_1.png)
+
 ### Run CssStyledGlyphsApp demo
 
 `./gradlew -PmainClass=de.jensd.fx.glyphs.demo.apps.CssStyledGlyphsApp execute`
