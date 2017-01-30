@@ -13,7 +13,6 @@
  */
 package de.jensd.fx.glyphs.examples;
 
-import de.jensd.fx.glyphs.GlyphsStyle;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
 import de.jensd.fx.glyphs.icons525.Icons525;
